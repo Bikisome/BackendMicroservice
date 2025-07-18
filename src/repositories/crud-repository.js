@@ -1,5 +1,4 @@
-import {Logger } from require('../config');
-
+const { Logger } = require("../config");
 class CrudRepositorie { 
     constructor(model) {
         this.model = model;
